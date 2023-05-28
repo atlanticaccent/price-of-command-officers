@@ -1,20 +1,13 @@
-package com.example;
+package com.price_of_command;
 
 import com.fs.starfarer.api.BaseModPlugin;
-import com.fs.starfarer.api.Global;
 import com.thoughtworks.xstream.XStream;
 
-public class ExampleModPlugin extends BaseModPlugin {
+public class PCOfficerPackPlugin extends BaseModPlugin {
 
     @Override
     public void onGameLoad(boolean newGame) {
         super.onGameLoad(newGame);
-
-        // Example only.
-        // This does nothing and can be deleted.
-        if (Global.getSettings().isDevMode()) {
-            Global.getSector().addTransientScript(new ExampleEveryFrameScript());
-        }
     }
 
     /**
