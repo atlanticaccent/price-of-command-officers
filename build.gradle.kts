@@ -65,10 +65,7 @@ dependencies {
     implementation("org.json:json:20090211")
     implementation("net.java.jinput:jinput:2.0.7")
     implementation("org.codehaus.janino:janino:3.0.7")
-    implementation("starfarer:starfarer-api:1.0.0") // This grabs local files from the /libs folder, see `repositories` block.
-
-    // If the above fails, uncomment this line to use the dependencies in starsector-core instead of getting them from The Internet.
-    // compileOnly(fileTree(starsectorCoreDirectory) { include("**/*.jar") })
+    compileOnly(fileTree(starsectorCoreDirectory) { include("**/*.jar") })
 
     //////////////////////////////////////////
     // SECTION D.2: MOD DEPENDENCIES (mods that this mods depends on to compile)
@@ -201,7 +198,7 @@ tasks {
     // If enabled, will copy your mod to the /mods directory when run (and whenever gradle syncs).
     // Disabled by default, as it is not needed if your mod directory is symlinked into your /mods folder.
     register<Copy>("install-mod") {
-        val enabled = false;
+        val enabled = true;
 
         if (!enabled) return@register
 
