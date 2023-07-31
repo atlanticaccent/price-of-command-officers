@@ -1,0 +1,9 @@
+id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon,
+# pc_malfunction_1,Malfunction,0,0,0,,,,TRUE,,,"npc_only, deprecated, pc_condition",graphics/icons/skills/broken-machine.png
+# pc_malfunction_2,Malfunction,0,0,0,,,,TRUE,,,"npc_only, deprecated, pc_condition",graphics/icons/skills/broken-machine.png
+# pc_malfunction_3,Malfunction,0,0,0,,,,TRUE,,,"npc_only, deprecated, pc_condition",graphics/icons/skills/broken-machine.png
+# pc_malfunction_4,Malfunction,0,0,0,,,,TRUE,,,"npc_only, deprecated, pc_condition",graphics/icons/skills/broken-machine.png
+# pc_malfunction_5,Malfunction,0,0,0,,,,TRUE,,,"npc_only, deprecated, pc_condition",graphics/icons/skills/broken-machine.png
+# pc_malfunction_6,Malfunction,0,0,0,,,,TRUE,,,"npc_only, deprecated, pc_condition",graphics/icons/skills/broken-machine.png
+# pc_malfunction_7,Malfunction,0,0,0,,,,TRUE,,,"npc_only, deprecated, pc_condition",graphics/icons/skills/broken-machine.png
+pc_extreme_cyberization,Extreme Cyberization,0,0,0,,foo,bar,TRUE,,,"npc_only, deprecated, pc_trait",graphics/icons/skills/cyborg.png

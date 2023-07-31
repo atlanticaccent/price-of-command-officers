@@ -140,7 +140,7 @@ tasks {
                             {
                                 "id": "price_of_command",
                                 "name": "Price of Command",
-                                "version": "0.0.5"
+                                "version": { "major":"0", "minor": "0", "patch": "5" },
                             }
                         ]
                     }
